@@ -139,6 +139,7 @@
     <ClInclude Include="Game.h" />
     <ClInclude Include="InitDxLib.h" />
     <ClInclude Include="Observer.h" />
+    <ClInclude Include="singleton.h" />
     <ClInclude Include="SoundManager.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

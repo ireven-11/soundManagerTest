@@ -6,10 +6,10 @@ int WINAPI WinMain(winmainSetting)
 {
     InitDxLib();
 
-    auto game = Game::instance();
-
-    game->update();
+    Game& game = Game::instance();
+    game.update();
 
     DxLib_End();
+
     return 0;
 }
