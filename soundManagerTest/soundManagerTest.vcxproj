@@ -138,9 +138,10 @@
   <ItemGroup>
     <ClInclude Include="Game.h" />
     <ClInclude Include="InitDxLib.h" />
-    <ClInclude Include="Observer.h" />
+    <ClInclude Include="IObserver.h" />
     <ClInclude Include="singleton.h" />
     <ClInclude Include="SoundManager.h" />
+    <ClInclude Include="Subject.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
